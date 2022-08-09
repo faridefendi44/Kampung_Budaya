@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Mogena', sans-serif;
+    color: white;
+}
+
+.tulisan{
+    color: #731514;
+}
+.rounded{
+    border-radius:50;
+}
+.footer{
+    background-color:#86341F;
+}
+
+.animasi{
+    animation: animasitul 3s ease infinite alternate;
+}
+@keyframes animasitul {
+    0% {
+       width: 60%;
+    }
+    50%{
+        width: 80%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.hov{
+    transition: transform .5s;
+}
+.hov:hover{
+    transform: scale(1.2);
+}
